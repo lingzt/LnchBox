@@ -13,6 +13,8 @@
 		90C6F1BA1CF5E91A0058480F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C6F1B81CF5E91A0058480F /* Main.storyboard */; };
 		90C6F1BC1CF5E91A0058480F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C6F1BB1CF5E91A0058480F /* Assets.xcassets */; };
 		90C6F1BF1CF5E91A0058480F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C6F1BD1CF5E91A0058480F /* LaunchScreen.storyboard */; };
+		90C6F1C81CF5EF600058480F /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6F1C71CF5EF600058480F /* Restaurant.m */; };
+		90C6F1CB1CF5F3260058480F /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6F1CA1CF5F3260058480F /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		90C6F1BB1CF5E91A0058480F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90C6F1BE1CF5E91A0058480F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90C6F1C01CF5E91A0058480F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C6F1C61CF5EF600058480F /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		90C6F1C71CF5EF600058480F /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		90C6F1C91CF5F3260058480F /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		90C6F1CA1CF5F3260058480F /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,12 @@
 				90C6F1B21CF5E91A0058480F /* AppDelegate.h */,
 				90C6F1B31CF5E91A0058480F /* AppDelegate.m */,
 				90C6F1B51CF5E91A0058480F /* ViewController.h */,
+				90C6F1C91CF5F3260058480F /* ResultViewController.h */,
+				90C6F1CA1CF5F3260058480F /* ResultViewController.m */,
 				90C6F1B61CF5E91A0058480F /* ViewController.m */,
 				90C6F1B81CF5E91A0058480F /* Main.storyboard */,
+				90C6F1C61CF5EF600058480F /* Restaurant.h */,
+				90C6F1C71CF5EF600058480F /* Restaurant.m */,
 				90C6F1BB1CF5E91A0058480F /* Assets.xcassets */,
 				90C6F1BD1CF5E91A0058480F /* LaunchScreen.storyboard */,
 				90C6F1C01CF5E91A0058480F /* Info.plist */,
@@ -149,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C6F1C81CF5EF600058480F /* Restaurant.m in Sources */,
 				90C6F1B71CF5E91A0058480F /* ViewController.m in Sources */,
 				90C6F1B41CF5E91A0058480F /* AppDelegate.m in Sources */,
+				90C6F1CB1CF5F3260058480F /* ResultViewController.m in Sources */,
 				90C6F1B11CF5E91A0058480F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

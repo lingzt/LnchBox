@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Restaurant.h"
 
 @interface ViewController ()
 
