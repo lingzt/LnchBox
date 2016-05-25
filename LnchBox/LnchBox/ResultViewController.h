@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ResultViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *resultRestaurantImageView;
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 @property (weak, nonatomic) IBOutlet UIButton *restartButton;
+@property (strong,nonatomic) NSString *resultRestuarantName;
+
+
+
+
 
 @end
