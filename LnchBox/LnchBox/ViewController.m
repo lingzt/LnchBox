@@ -16,12 +16,16 @@
 
 @implementation ViewController
 
-NSString *testString = @"test test";
+NSArray *restaurants;
+int topRestaurant = 0;
+int bottomRestaurant = 1;
+int currentIndex = 1;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Do any additional setup after loading the view, typically from a nib.
+    restaurants = @[@"Taco Bell",@"Bucharest Grill",@"Sy Thai",@"HopCat"];
+    _restaurant1ImageView.image = restaurants[topRestaurant];
+    _restaurant2ImageView.image = restaurants[bottomRestaurant];
 }
 
 
