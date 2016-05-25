@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ResultViewController.h"
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *restaurant1ImageView;
@@ -15,5 +16,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *restaurant2Button;
 @property (weak, nonatomic) IBOutlet UILabel *restaurant1Label;
 @property (weak, nonatomic) IBOutlet UILabel *restaurant2Label;
+
 @end
 

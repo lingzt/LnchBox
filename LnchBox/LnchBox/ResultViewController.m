@@ -14,8 +14,10 @@
 
 @implementation ResultViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog([self resultRestuarantName]);
     // Do any additional setup after loading the view.
 }
 

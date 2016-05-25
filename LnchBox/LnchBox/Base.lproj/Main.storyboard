@@ -59,11 +59,12 @@
                         <outlet property="restaurant2Button" destination="Q1q-5a-JYS" id="Mbq-H5-4vV"/>
                         <outlet property="restaurant2ImageView" destination="Vzq-Vf-awr" id="Isr-Nf-a8l"/>
                         <outlet property="restaurant2Label" destination="owF-rv-lQE" id="PIh-Uo-7kn"/>
+                        <segue destination="dYh-gm-KL2" kind="modal" identifier="showResult" id="4TS-Ru-WVW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="377" y="470"/>
+            <point key="canvasLocation" x="473" y="470"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="uPO-S1-5oj">
@@ -96,6 +97,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="eID-bv-gLF"/>
                     <connections>
                         <outlet property="restartButton" destination="wXp-F7-32Z" id="la1-CA-4lc"/>
                         <outlet property="resultLabel" destination="W53-ne-cRu" id="dX5-um-xKk"/>
