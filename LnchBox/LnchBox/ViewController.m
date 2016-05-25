@@ -15,14 +15,30 @@
 
 @implementation ViewController
 
+NSArray *restaurants;
+int topRestaurant = 0;
+int bottomRestaurant = 1;
+int currentIndex = 1;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    restaurants = @[@"Taco Bell",@"Bucharest Grill",@"Sy Thai",@"HopCat"];
+    _restaurant1ImageView.image = restaurants[topRestaurant];
+    _restaurant2ImageView.image = restaurants[bottomRestaurant];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)choice1Button:(UIButton *)sender {
+    
+    [self newRestaurantOption];
+}
+
+-(void)newRestaurantOption {
+    
 }
 
 @end
