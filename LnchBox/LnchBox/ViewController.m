@@ -41,27 +41,40 @@ int currentIndex = 1;
 //MARK: - Interactivity Methods
     //1. initiate RestaurantArray
 -(void)initiateRestaurantArray{
-    restaurants = @[@"Taco Bell",@"Bucharest Grill",@"Sy Thai",@"HopCat"];
+    NSDictionary *restaurant1 = @{@"name":@"Taco Bell",
+                                  @"image":[UIImage imageNamed:@"1.jpeg"],};
+
+    NSDictionary *restaurant2 = @{@"name":@"Bucharest Grill",
+                                  @"image":[UIImage imageNamed:@"1.jpeg"],};
+    NSDictionary *restaurant3 = @{@"name":@"Sy Thai",
+                                  @"image":[UIImage imageNamed:@"1.jpeg"],};
+    NSDictionary *restaurant4 = @{@"name":@"HopCat",
+                                  @"image":[UIImage imageNamed:@"1.jpeg"],};
+    restaurants = [[NSArray alloc] initWithObjects:restaurant1, restaurant2,restaurant3,restaurant4,nil];
+    NSLog(@"restaurant array initiated\n\n\n");
 }
+
 
     //2.shovel array and save it into a newRestaurantArray
 -(void)shovelRestaurantArray{
     [self initiateRestaurantArray];
-    //exchangeObjectAtIndex only works when there are 2 items in the array.
+    newRestaurantArray = [restaurants mutableCopy];
+    
+        //exchangeObjectAtIndex only works when there are 2 items in the array.
     for (NSInteger i = newRestaurantArray.count-1; i > -1; i--)
     {
         [newRestaurantArray exchangeObjectAtIndex:i withObjectAtIndex:arc4random_uniform((u_int32_t)(i+1))];
     }
     
-    //test the shovel function and it works!
+        //test the shovel function and it works!
     [newRestaurantArray enumerateObjectsUsingBlock:^(id obj,
                                               NSUInteger idx,
                                               BOOL *stop) {
-        NSLog(@"%ld: %@", idx, obj);
+        NSLog(@"%ld: %@", idx, obj[@"name"]);
     }];
 }
 
-
+    //3.place first 2 shown restaurant, [0] to the top, [1] to the button.
 
 
 
