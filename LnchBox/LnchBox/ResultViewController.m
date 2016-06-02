@@ -14,11 +14,12 @@
 
 @implementation ResultViewController
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog([self resultRestuarantName]);
-    // Do any additional setup after loading the view.
+    NSLog(@"%@ is chosen for lunch today", _resultRestaurant[@"name"]);
+    _resultRestaurantImageView.image = [_resultRestaurant valueForKey:@"image"];
+    //_resultRestaurant[@"image"];
+    _resultLabel.text = [NSString stringWithFormat:@"%@ is the chose restaurant", _resultRestaurant[@"name"]];
 }
 
 - (void)didReceiveMemoryWarning {

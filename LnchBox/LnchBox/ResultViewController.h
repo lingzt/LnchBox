@@ -14,6 +14,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 @property (weak, nonatomic) IBOutlet UIButton *restartButton;
 @property (strong,nonatomic) NSString *resultRestuarantName;
+@property NSMutableDictionary* resultRestaurant;
+
 
 
 

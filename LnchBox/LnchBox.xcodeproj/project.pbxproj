@@ -15,7 +15,10 @@
 		90C6F1BF1CF5E91A0058480F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C6F1BD1CF5E91A0058480F /* LaunchScreen.storyboard */; };
 		90C6F1C81CF5EF600058480F /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6F1C71CF5EF600058480F /* Restaurant.m */; };
 		90C6F1CB1CF5F3260058480F /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6F1CA1CF5F3260058480F /* ResultViewController.m */; };
-		90DCBCB91CF70B1800C5D135 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 90DCBCB81CF70B1800C5D135 /* 1.jpeg */; };
+		90F98C081CFCCA980018CABA /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 90F98C041CFCCA980018CABA /* 1.jpeg */; };
+		90F98C091CFCCA980018CABA /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 90F98C051CFCCA980018CABA /* 2.jpeg */; };
+		90F98C0A1CFCCA980018CABA /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 90F98C061CFCCA980018CABA /* 3.jpeg */; };
+		90F98C0B1CFCCA980018CABA /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90F98C071CFCCA980018CABA /* 4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +36,10 @@
 		90C6F1C71CF5EF600058480F /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
 		90C6F1C91CF5F3260058480F /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
 		90C6F1CA1CF5F3260058480F /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
-		90DCBCB81CF70B1800C5D135 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = ../../../../../Desktop/1.jpeg; sourceTree = "<group>"; };
+		90F98C041CFCCA980018CABA /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = Assets.xcassets/1.jpeg; sourceTree = "<group>"; };
+		90F98C051CFCCA980018CABA /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpeg; path = Assets.xcassets/2.jpeg; sourceTree = "<group>"; };
+		90F98C061CFCCA980018CABA /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpeg; path = Assets.xcassets/3.jpeg; sourceTree = "<group>"; };
+		90F98C071CFCCA980018CABA /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = Assets.xcassets/4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +92,10 @@
 		90C6F1AF1CF5E91A0058480F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				90DCBCB81CF70B1800C5D135 /* 1.jpeg */,
+				90F98C041CFCCA980018CABA /* 1.jpeg */,
+				90F98C051CFCCA980018CABA /* 2.jpeg */,
+				90F98C061CFCCA980018CABA /* 3.jpeg */,
+				90F98C071CFCCA980018CABA /* 4.jpg */,
 				90C6F1B01CF5E91A0058480F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -149,10 +158,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F98C0B1CFCCA980018CABA /* 4.jpg in Resources */,
 				90C6F1BF1CF5E91A0058480F /* LaunchScreen.storyboard in Resources */,
+				90F98C081CFCCA980018CABA /* 1.jpeg in Resources */,
 				90C6F1BC1CF5E91A0058480F /* Assets.xcassets in Resources */,
+				90F98C0A1CFCCA980018CABA /* 3.jpeg in Resources */,
 				90C6F1BA1CF5E91A0058480F /* Main.storyboard in Resources */,
-				90DCBCB91CF70B1800C5D135 /* 1.jpeg in Resources */,
+				90F98C091CFCCA980018CABA /* 2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
